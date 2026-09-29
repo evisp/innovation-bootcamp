@@ -2557,3 +2557,117 @@ a.ib-btn.ib-btn--light:hover {
     text-align: left;
   }
 }
+
+/* Shift from assumption to insight */
+.md-typeset .ib-shift {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 2.4rem minmax(0, 1fr);
+  align-items: stretch;
+  gap: 0.6rem;
+  margin: 2rem 0;
+}
+
+.md-typeset .ib-shift__from,
+.md-typeset .ib-shift__to {
+  padding: 1.1rem 1.3rem 1.2rem;
+  border-radius: 16px;
+}
+
+.md-typeset .ib-shift__from {
+  border: 1px dashed #CFD6EA;
+  background-color: transparent;
+}
+
+.md-typeset .ib-shift__to {
+  border: 1px solid var(--ib-ink);
+  background-color: var(--ib-ink);
+}
+
+.md-typeset .ib-shift span {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-size: 0.62rem;
+  font-weight: 600;
+  color: var(--ib-muted);
+}
+
+.md-typeset .ib-shift__to span {
+  color: var(--ib-mint);
+}
+
+.md-typeset .ib-shift p {
+  margin: 0;
+  font-family: var(--ib-display);
+  font-size: 0.98rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.md-typeset .ib-shift__from p {
+  color: var(--ib-muted);
+}
+
+.md-typeset .ib-shift__to p {
+  color: #FFFFFF;
+}
+
+.md-typeset .ib-shift__to mark {
+  padding: 0 0.2em;
+  border-radius: 0.2em;
+  background-image: none;
+  background-color: var(--ib-mint);
+  color: var(--ib-ink);
+}
+
+.md-typeset .ib-shift__arrow {
+  position: relative;
+}
+
+.md-typeset .ib-shift__arrow::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0.3rem;
+  right: 0.7rem;
+  height: 2px;
+  background-color: var(--ib-violet);
+}
+
+.md-typeset .ib-shift__arrow::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0.3rem;
+  width: 0.6rem;
+  height: 0.6rem;
+  border-top: 2px solid var(--ib-violet);
+  border-right: 2px solid var(--ib-violet);
+  transform: translateY(-50%) rotate(45deg);
+}
+
+@media screen and (max-width: 44.9375em) {
+  .md-typeset .ib-shift {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .md-typeset .ib-shift__arrow {
+    height: 1.8rem;
+  }
+
+  .md-typeset .ib-shift__arrow::before {
+    top: 0.2rem;
+    bottom: 0.5rem;
+    left: 50%;
+    right: auto;
+    width: 2px;
+    height: auto;
+  }
+
+  .md-typeset .ib-shift__arrow::after {
+    top: auto;
+    bottom: 0.3rem;
+    left: calc(50% - 0.3rem);
+    right: auto;
+    transform: rotate(135deg);
+  }
+}
