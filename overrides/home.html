@@ -1,0 +1,69 @@
+{% extends "main.html" %}
+
+{#
+  Home page template.
+  The hero lives here so it can span the full width under the header.
+  Everything below the hero comes from docs/index.md.
+#}
+
+{% block tabs %}
+  {{ super() }}
+  <section class="ib-hero">
+    <div class="md-grid ib-hero__inner">
+
+      <div class="ib-hero__copy">
+        <p class="ib-hero__kicker">26 to 30 October 2026, Durrës</p>
+        <h1 class="ib-hero__title">Five days to turn a <mark>real challenge</mark> into an idea worth pitching</h1>
+        <p class="ib-hero__lead">
+          Innovation Bootcamp Albania brings students, mentors and companies together for one week.
+          Companies share problems they are facing right now. Student teams dig in, test their thinking
+          with real people, build a first version and pitch it on Friday.
+        </p>
+        <div class="ib-hero__actions">
+          <a class="ib-btn ib-btn--primary" href="{{ 'training/' | url }}">Start preparing</a>
+          <a class="ib-btn ib-btn--ghost" href="{{ 'agenda/' | url }}">See the agenda</a>
+        </div>
+      </div>
+
+      <aside class="ib-pass" aria-label="Key details">
+        <div class="ib-pass__card">
+          <div class="ib-pass__main">
+            <p class="ib-pass__label">Participant pass</p>
+            <p class="ib-pass__name">Innovation Bootcamp Albania</p>
+            <dl class="ib-pass__details">
+              <div>
+                <dt>{% include ".icons/material/calendar-blank-outline.svg" %}When</dt>
+                <dd>Mon 26 to Fri 30 October 2026</dd>
+              </div>
+              <div>
+                <dt>{% include ".icons/material/map-marker-outline.svg" %}Where</dt>
+                <dd>Godina Liria and Durrës</dd>
+              </div>
+              <div>
+                <dt>{% include ".icons/material/account-group-outline.svg" %}Who</dt>
+                <dd>Student teams, mentors and partner companies</dd>
+              </div>
+              <div>
+                <dt>{% include ".icons/material/school-outline.svg" %}Hosts</dt>
+                <dd>Match4Research and the Faculty of Economy, University of Tirana</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="ib-pass__stub">
+            <div>
+              <span>Demo day</span>
+              <strong>Friday 30 October, 13:15</strong>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+    </div>
+  </section>
+{% endblock %}
+
+{% block content %}
+  <div class="ib-home">
+    {{ page.content }}
+  </div>
+{% endblock %}
