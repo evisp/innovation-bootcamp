@@ -1971,7 +1971,7 @@ a.ib-btn.ib-btn--light:hover {
 .md-typeset figure.ib-eco {
   display: block;
   width: auto;
-  margin: 0 0 1rem;
+  margin: 1.4rem 0;
   padding: 1.6rem 1.4rem;
   border: 1px solid var(--ib-line);
   border-radius: 20px;
@@ -2669,5 +2669,82 @@ a.ib-btn.ib-btn--light:hover {
     left: calc(50% - 0.3rem);
     right: auto;
     transform: rotate(135deg);
+  }
+}
+
+/* Callout for team deliverables */
+.md-typeset .ib-callout {
+  margin: 1.4rem 0 0;
+  padding: 1.1rem 1.3rem 0.2rem 1.4rem;
+  border-radius: 14px;
+  background-color: var(--ib-violet-soft);
+  box-shadow: inset 4px 0 0 var(--ib-violet);
+}
+
+.md-typeset .ib-callout > p {
+  font-size: 0.78rem;
+  line-height: 1.6;
+  color: var(--ib-ink-2);
+}
+
+.md-typeset .ib-callout > p:first-child {
+  margin: 0 0 0.3rem;
+  font-family: var(--ib-display);
+  font-size: 0.86rem;
+  color: var(--ib-ink);
+}
+
+/* Six Thinking Hats */
+.md-typeset .ib-hats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.6rem;
+  margin: 1.2rem 0 0;
+}
+
+.md-typeset .ib-hat {
+  display: grid;
+  grid-template-columns: 2.2rem minmax(0, 1fr);
+  grid-template-rows: auto auto;
+  column-gap: 0.7rem;
+  align-items: center;
+  padding: 0.8rem 0.9rem;
+  border: 1px solid var(--ib-line);
+  border-radius: 14px;
+  background-color: var(--ib-white);
+}
+
+.md-typeset .ib-hat span {
+  grid-row: 1 / 3;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  background-color: var(--hat);
+  box-shadow: inset 0 0 0 1px rgba(15, 27, 61, 0.15);
+}
+
+.md-typeset .ib-hat strong {
+  font-family: var(--ib-display);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ib-ink);
+}
+
+.md-typeset .ib-hat small {
+  font-size: 0.66rem;
+  line-height: 1.4;
+  color: var(--ib-muted);
+}
+
+.ib-hat--white { --hat: #FFFFFF; }
+.ib-hat--red { --hat: #E5484D; }
+.ib-hat--black { --hat: #1C2033; }
+.ib-hat--yellow { --hat: #F5C542; }
+.ib-hat--green { --hat: #2FB36B; }
+.ib-hat--blue { --hat: #2F80ED; }
+
+@media screen and (max-width: 44.9375em) {
+  .md-typeset .ib-hats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
