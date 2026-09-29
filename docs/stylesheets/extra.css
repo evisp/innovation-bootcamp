@@ -7,6 +7,8 @@
                                           13. Inner page headers
                                           14. Agenda page
                                           15. Mentors page
+                                          16. Partners page
+                                          17. FAQ page
    ========================================================================== */
 
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap");
@@ -1952,5 +1954,336 @@ a.ib-btn.ib-btn--light:hover {
 @media screen and (max-width: 34em) {
   .md-typeset .ib-mentors {
     grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* 16. Partners page ------------------------------------------------------- */
+
+.md-typeset .ib-section--tight {
+  margin: 3rem 0 1rem;
+}
+
+.md-typeset .ib-cta--single {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.md-typeset figure.ib-eco {
+  display: block;
+  width: auto;
+  margin: 0 0 1rem;
+  padding: 1.6rem 1.4rem;
+  border: 1px solid var(--ib-line);
+  border-radius: 20px;
+  background:
+    radial-gradient(rgba(15, 27, 61, 0.07) 1px, transparent 1.3px) 0 0 / 18px 18px,
+    var(--ib-white);
+}
+
+.md-typeset figure.ib-eco img {
+  display: block;
+  width: 100%;
+  max-width: 44rem;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* Logos of any shape sit inside a fixed box without stretching */
+.md-typeset .ib-org__logo img,
+.md-typeset .ib-company__logo img,
+.md-typeset .ib-tile__img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.md-typeset .ib-orgs {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.md-typeset .ib-org {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+  padding: 1.3rem;
+  border: 1px solid var(--ib-line);
+  border-radius: 18px;
+  background-color: var(--ib-white);
+}
+
+.md-typeset .ib-org__logo {
+  flex: none;
+  width: 7.5rem;
+  height: 5rem;
+  padding: 0.6rem;
+  border-radius: 12px;
+  background-color: var(--ib-canvas);
+}
+
+.md-typeset .ib-org h3 {
+  margin: 0.1rem 0 0.4rem;
+  font-size: 1.02rem;
+  line-height: 1.3;
+}
+
+.md-typeset .ib-org p {
+  margin: 0 0 0.8rem;
+  font-size: 0.74rem;
+  line-height: 1.6;
+  color: var(--ib-ink-2);
+}
+
+.md-typeset .ib-companies {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.4rem;
+}
+
+.md-typeset .ib-company {
+  display: flex;
+  flex-direction: column;
+  padding: 0.75rem 0.75rem 1.1rem;
+  border: 1px solid var(--ib-line);
+  border-radius: 18px;
+  background-color: var(--ib-white);
+}
+
+.md-typeset .ib-company__logo {
+  height: 6.5rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: var(--ib-canvas);
+}
+
+.md-typeset .ib-company h3 {
+  margin: 0 0.35rem 0.3rem;
+  font-size: 0.95rem;
+  line-height: 1.3;
+}
+
+.md-typeset .ib-company p {
+  margin: 0 0.35rem 1rem;
+  font-size: 0.7rem;
+  line-height: 1.55;
+  color: var(--ib-muted);
+}
+
+.md-typeset .ib-company a.ib-textlink {
+  align-self: flex-start;
+  margin: auto 0.35rem 0;
+  font-size: 0.74rem;
+}
+
+.md-typeset .ib-company--open {
+  justify-content: flex-start;
+  padding: 1.1rem 1.1rem 1.2rem;
+  border: 2px dashed #CFD6EA;
+  background-color: transparent;
+}
+
+.md-typeset .ib-company--open h3,
+.md-typeset .ib-company--open p,
+.md-typeset .ib-company--open a.ib-textlink {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.md-typeset .ib-company__plus {
+  display: grid;
+  place-items: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+  background-color: var(--ib-mint);
+  font-family: var(--ib-display);
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--ib-teal-ink);
+}
+
+.md-typeset .ib-support {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.6rem;
+}
+
+.md-typeset .ib-support__group h3 {
+  margin: 0 0 0.8rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--ib-mint);
+  font-size: 0.82rem;
+}
+
+.md-typeset .ib-support__group:nth-child(2) h3 { border-bottom-color: #CFE2FC; }
+.md-typeset .ib-support__group:nth-child(3) h3 { border-bottom-color: #DCD7FF; }
+
+.md-typeset .ib-tiles {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+
+.md-typeset figure.ib-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.45rem;
+  width: auto;
+  margin: 0;
+  padding: 0.75rem 0.5rem 0.65rem;
+  border: 1px solid var(--ib-line);
+  border-radius: 12px;
+  background-color: var(--ib-white);
+}
+
+.md-typeset .ib-tile__img {
+  width: 100%;
+  height: 2.6rem;
+}
+
+.md-typeset figure.ib-tile figcaption {
+  max-width: none;
+  margin: 0;
+  font-size: 0.6rem;
+  font-style: normal;
+  line-height: 1.35;
+  text-align: center;
+  color: var(--ib-muted);
+}
+
+/* 17. FAQ page ------------------------------------------------------------ */
+
+.md-typeset .ib-faq-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0 0 1rem;
+}
+
+.md-typeset .ib-faq-nav a {
+  padding: 0.35rem 0.85rem;
+  border: 1px solid var(--ib-line);
+  border-radius: 999px;
+  background-color: var(--ib-white);
+  font-family: var(--ib-display);
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--ib-ink);
+  text-decoration: none;
+}
+
+.md-typeset .ib-faq-nav a:hover {
+  border-color: var(--ib-violet);
+  color: var(--ib-violet-ink);
+}
+
+.md-typeset .ib-tbc {
+  display: inline-block;
+  margin-right: 0.3rem;
+  padding: 0.05rem 0.5rem;
+  border-radius: 999px;
+  background-color: #FFF4D6;
+  font-size: 0.6rem;
+  font-weight: 600;
+  line-height: 1.6;
+  color: #8A5A00;
+  vertical-align: 0.08em;
+}
+
+.md-typeset details.question {
+  margin: 0.55rem 0;
+  padding: 0 1.1rem;
+  border: 1px solid var(--ib-line);
+  border-radius: 14px;
+  background-color: var(--ib-white);
+  box-shadow: none;
+  font-size: 0.76rem;
+}
+
+.md-typeset details.question[open] {
+  border-color: #CFC9FA;
+}
+
+.md-typeset details.question > summary {
+  margin: 0 -1.1rem;
+  padding: 0.95rem 2.8rem 0.95rem 1.1rem;
+  border: 0;
+  border-radius: 14px;
+  background-color: transparent;
+  font-family: var(--ib-display);
+  font-size: 0.84rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--ib-ink);
+}
+
+.md-typeset details.question > summary:hover {
+  color: var(--ib-violet-ink);
+}
+
+.md-typeset details.question > summary::before {
+  display: none;
+}
+
+.md-typeset details.question > summary::after {
+  top: 1rem;
+  right: 1rem;
+  background-color: var(--ib-violet);
+}
+
+.md-typeset details.question > p,
+.md-typeset details.question > ul {
+  line-height: 1.7;
+  color: var(--ib-ink-2);
+}
+
+.md-typeset details.question > :last-child {
+  margin-bottom: 1.1rem;
+}
+
+.md-typeset details.question > summary + * {
+  margin-top: 0.1rem;
+}
+
+/* Responsive for sections 16 and 17 */
+@media screen and (max-width: 76.1875em) {
+  .md-typeset .ib-companies {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 60em) {
+  .md-typeset .ib-orgs,
+  .md-typeset .ib-support {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media screen and (max-width: 44.9375em) {
+  .md-typeset .ib-org {
+    flex-direction: column;
+  }
+
+  .md-typeset .ib-tiles {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 34em) {
+  .md-typeset .ib-companies {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* The table of contents already lists FAQ topics on wide screens */
+@media screen and (min-width: 76.25em) {
+  .md-typeset .ib-faq-nav {
+    display: none;
   }
 }

@@ -237,14 +237,14 @@ The organisations that make the week possible, from universities to companies an
 {: .ib-lead }
 
 <div class="ib-logos">
-  <figure class="ib-logo"><img src="assets/partners/placeholder.svg" alt=""><figcaption>Match4Research</figcaption></figure>
-  <figure class="ib-logo"><img src="assets/partners/placeholder.svg" alt=""><figcaption>Faculty of Economy, UT</figcaption></figure>
-  <figure class="ib-logo"><img src="assets/partners/placeholder.svg" alt=""><figcaption>Raiffeisen Bank Albania</figcaption></figure>
-  <figure class="ib-logo"><img src="assets/partners/placeholder.svg" alt=""><figcaption>Melia Durrës</figcaption></figure>
-  <figure class="ib-logo"><img src="assets/partners/placeholder.svg" alt=""><figcaption>Gener 2</figcaption></figure>
-  <figure class="ib-logo"><img src="assets/partners/placeholder.svg" alt=""><figcaption>Metropolitan Tirana University</figcaption></figure>
-  <figure class="ib-logo"><img src="assets/partners/placeholder.svg" alt=""><figcaption>Holberton School</figcaption></figure>
-  <figure class="ib-logo"><img src="assets/partners/placeholder.svg" alt=""><figcaption>Tirana Business University</figcaption></figure>
+  <figure class="ib-logo"><img src="assets/partners/match4research.png" alt=""><figcaption>Match4Research</figcaption></figure>
+  <figure class="ib-logo"><img src="assets/partners/feut.png" alt=""><figcaption>Faculty of Economy, UT</figcaption></figure>
+  <figure class="ib-logo"><img src="assets/partners/raiffeisen-bank-albania.png" alt=""><figcaption>Raiffeisen Bank Albania</figcaption></figure>
+  <figure class="ib-logo"><img src="assets/partners/melia-durres.png" alt=""><figcaption>Melia Durrës</figcaption></figure>
+  <figure class="ib-logo"><img src="assets/partners/gener-2.png" alt=""><figcaption>Gener 2</figcaption></figure>
+  <figure class="ib-logo"><img src="assets/partners/umt.png" alt=""><figcaption>Metropolitan Tirana University</figcaption></figure>
+  <figure class="ib-logo"><img src="assets/partners/holberton-school.png" alt=""><figcaption>Holberton School</figcaption></figure>
+  <figure class="ib-logo"><img src="assets/partners/tirana-business-university.png" alt=""><figcaption>Tirana Business University</figcaption></figure>
 </div>
 
 [All partners](partners.md){ .ib-textlink }
