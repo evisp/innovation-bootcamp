@@ -2748,3 +2748,167 @@ a.ib-btn.ib-btn--light:hover {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
+/* Training overview: module journey */
+.md-typeset ol.ib-journey {
+  display: grid;
+  gap: 0.6rem;
+  margin: 1.2rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.md-typeset ol.ib-journey li {
+  margin: 0;
+}
+
+.md-typeset ol.ib-journey a {
+  display: grid;
+  grid-template-columns: 3rem minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.2rem;
+  border: 1px solid var(--ib-line);
+  border-radius: 16px;
+  background-color: var(--ib-white);
+  color: var(--ib-ink);
+  text-decoration: none;
+  transition: border-color 0.15s ease;
+}
+
+.md-typeset ol.ib-journey a:hover {
+  border-color: var(--ib-violet);
+  color: var(--ib-ink);
+}
+
+.md-typeset ol.ib-journey a:focus-visible {
+  outline: 2px solid var(--ib-violet);
+  outline-offset: 2px;
+}
+
+.md-typeset .ib-journey__num {
+  font-family: var(--ib-display);
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1;
+  color: transparent;
+  -webkit-text-stroke: 1.5px var(--ib-violet);
+  transition: color 0.15s ease;
+}
+
+.md-typeset ol.ib-journey a:hover .ib-journey__num {
+  color: var(--ib-mint);
+}
+
+.md-typeset .ib-journey__body strong {
+  display: block;
+  font-family: var(--ib-display);
+  font-size: 0.92rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.md-typeset .ib-journey__body span {
+  display: block;
+  margin-top: 0.15rem;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: var(--ib-muted);
+}
+
+.md-typeset .ib-journey__when {
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  background-color: var(--ib-mint-soft);
+  font-size: 0.62rem;
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--ib-teal-ink);
+}
+
+.md-typeset .ib-journey--optional .ib-journey__num {
+  -webkit-text-stroke-color: #AEB6CF;
+}
+
+.md-typeset .ib-journey--optional .ib-journey__when {
+  background-color: #EEF1F8;
+  color: var(--ib-muted);
+}
+
+/* Training overview: modules by day */
+.ib-map {
+  display: grid;
+  grid-template-columns: 11rem repeat(5, minmax(4.5rem, 1fr));
+  gap: 0.4rem;
+  min-width: 36rem;
+  padding: 1.1rem 1.2rem;
+  border: 1px solid var(--ib-line);
+  border-radius: 18px;
+  background-color: var(--ib-white);
+}
+
+.ib-map__day {
+  padding-bottom: 0.3rem;
+  font-family: var(--ib-display);
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-align: center;
+  color: var(--ib-muted);
+}
+
+.ib-map__mod {
+  align-self: center;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--ib-ink);
+}
+
+.ib-map__on {
+  display: grid;
+  place-items: center;
+  min-height: 2rem;
+  border-radius: 999px;
+  background-color: var(--ib-violet-soft);
+  box-shadow: inset 0 0 0 1px #DCD7FF;
+}
+
+.ib-map__on--optional {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 1.5px #CFD6EA;
+  background-image: repeating-linear-gradient(135deg, transparent 0 6px, #EEF1F8 6px 9px);
+}
+
+.ib-map__on--final {
+  background-color: var(--ib-ink);
+  box-shadow: none;
+  font-family: var(--ib-display);
+  font-size: 0.62rem;
+  font-weight: 600;
+  color: var(--ib-mint);
+}
+
+@media screen and (max-width: 44.9375em) {
+  .md-typeset ol.ib-journey a {
+    grid-template-columns: 2.4rem minmax(0, 1fr);
+  }
+
+  .md-typeset .ib-journey__when {
+    grid-column: 2;
+    justify-self: start;
+  }
+}
+
+/* Two steps side by side, both equally important */
+.md-typeset .ib-shift--steps .ib-shift__from {
+  border-style: solid;
+  border-color: var(--ib-line);
+  background-color: var(--ib-white);
+}
+
+.md-typeset .ib-shift--steps .ib-shift__from p {
+  color: var(--ib-ink);
+}
+
+.md-typeset .ib-shift--steps .ib-shift__from span {
+  color: var(--ib-teal-ink);
+}
