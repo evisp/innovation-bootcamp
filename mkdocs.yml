@@ -1,0 +1,75 @@
+site_name: Innovation Bootcamp Albania
+site_description: Five days where students, mentors and companies tackle real industry challenges. 26–30 October 2026, Durrës.
+site_url: https://evisp.github.io/innovation-bootcamp/
+repo_url: https://github.com/evisp/innovation-bootcamp
+repo_name: evisp/innovation-bootcamp
+edit_uri: edit/main/docs/
+copyright: © 2026 Match4Research & FEUT
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  font:
+    text: Inter
+    code: JetBrains Mono
+  palette:
+    scheme: default
+    primary: custom
+    accent: custom
+  icon:
+    logo: material/lightbulb-on-outline
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.instant
+    - navigation.top
+    - navigation.footer
+    - content.tabs.link
+    - toc.follow
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Agenda: agenda.md
+  - Challenges: challenges/index.md
+  - Training:
+      - training/index.md
+      - 1 · Problem Identification: training/01-problem-identification.md
+      - 2 · Design Thinking: training/02-design-thinking.md
+      - 3 · Impact: training/03-impact.md
+      - 4 · Team Dynamics: training/04-team-dynamics.md
+      - 5 · Pitching: training/05-pitching.md
+  - Mentors: mentors.md
+  - Partners: partners.md
+  - FAQ: faq.md
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+
+extra_css:
+  - stylesheets/extra.css

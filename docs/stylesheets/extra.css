@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap");
+
+:root {
+  --ib-ink: #0F1B3D;
+  --ib-violet: #6C5CE7;
+  --ib-blue: #2F80ED;
+  --ib-teal: #14C4B0;
+  --ib-mint: #B9F5E9;
+  --ib-canvas: #F7F9FF;
+  --ib-coral: #FF7A59;
+  --ib-line: #E3E7F5;
+}
+
+[data-md-color-primary="custom"] {
+  --md-primary-fg-color: var(--ib-ink);
+  --md-primary-fg-color--light: #24345E;
+  --md-primary-fg-color--dark: #08112A;
+  --md-primary-bg-color: #FFFFFF;
+}
+
+[data-md-color-accent="custom"] {
+  --md-accent-fg-color: var(--ib-violet);
+}
+
+[data-md-color-scheme="default"] {
+  --md-default-bg-color: var(--ib-canvas);
+  --md-typeset-color: var(--ib-ink);
+  --md-typeset-a-color: var(--ib-violet);
+}
+
+.md-header { border-bottom: 3px solid var(--ib-teal); }
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  font-family: "Space Grotesk", var(--md-text-font-family), sans-serif;
+  color: var(--ib-ink);
+  letter-spacing: -0.01em;
+}
+.md-typeset h1 { font-weight: 700; }
+.md-typeset h2, .md-typeset h3 { font-weight: 500; }
+
+/* Marker highlight: ==word== */
+.md-typeset mark {
+  background: linear-gradient(transparent 55%, var(--ib-mint) 55%);
+  color: inherit;
+  padding: 0 .1em;
+}
