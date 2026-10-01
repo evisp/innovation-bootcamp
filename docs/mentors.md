@@ -42,7 +42,7 @@ They come from universities, innovation hubs and companies across Europe and Alb
 
 <div class="ib-mentor__photo" markdown>
 
-![Portrait of Gert Guri](assets/mentors/gert-guri.jpg){ loading=lazy }
+![Portrait of Gert Guri](assets/mentors/gert-guri.jpeg){ loading=lazy }
 
 <span class="ib-mentor__badge">TU Eindhoven</span>
 
@@ -68,7 +68,7 @@ Coaches around 70 student teams a year on real projects and teaches at TUM, DTU,
 
 <div class="ib-mentor__photo" markdown>
 
-![Portrait of Arvid Hendriks](assets/mentors/arvid-hendriks.jpg){ loading=lazy }
+![Portrait of Arvid Hendriks](assets/mentors/arvid-hendriks.jpeg){ loading=lazy }
 
 <span class="ib-mentor__badge">Qnomi</span>
 
@@ -145,7 +145,7 @@ Founded Match4Research and has taught innovation, management and business ethics
 
 <div class="ib-mentor__photo" markdown>
 
-![Portrait of Brunilda Kosta](assets/mentors/brunilda-kosta.jpg){ loading=lazy }
+![Portrait of Brunilda Kosta](assets/mentors/brunilda-kosta.jpeg){ loading=lazy }
 
 <span class="ib-mentor__badge">Faculty of Economy, UT</span>
 
