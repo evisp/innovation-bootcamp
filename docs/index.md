@@ -1,7 +1,7 @@
 ---
 template: home.html
 title: Home
-description: Five days in Durrës where student teams work on real challenges from companies, coached by experienced mentors. 26 to 30 October 2026.
+description: Five days where student teams work on real challenges from companies, coached by experienced mentors. 26 to 30 October 2026.
 hide:
   - navigation
   - toc
@@ -211,7 +211,7 @@ Each module is a short set of videos and tools. Go through it before the day it 
 
 ## Your mentors
 
-Educators and practitioners from TU Eindhoven, UnternehmerTUM, the University of Tirana, Metropolitan Tirana University, Holberton and Qnomi. They work with the teams every day.
+Educators and practitioners from TU Eindhoven, UnternehmerTUM, the University of Tirana, Metropolitan Tirana University, Holberton, Qnomi and Lufthansa Industry Solutions. They work with the teams every day.
 {: .ib-lead }
 
 <div class="ib-people">
@@ -222,6 +222,7 @@ Educators and practitioners from TU Eindhoven, UnternehmerTUM, the University of
   <div class="ib-person"><span class="ib-avatar">BK</span><span><span class="ib-person__name">Brunilda Kosta</span><span class="ib-person__org">Faculty of Economy, UT</span></span></div>
   <div class="ib-person"><span class="ib-avatar">BP</span><span><span class="ib-person__name">Bruna Papa</span><span class="ib-person__org">Faculty of Economy, UT</span></span></div>
   <div class="ib-person"><span class="ib-avatar">EP</span><span><span class="ib-person__name">Evis Plaku</span><span class="ib-person__org">Holberton and UMT</span></span></div>
+  <div class="ib-person"><span class="ib-avatar">KK</span><span><span class="ib-person__name">Kedi Kalaj</span><span class="ib-person__org">Lufthansa Industry Solutions</span></span></div>
 </div>
 
 [Meet the mentors](mentors.md){ .ib-textlink }

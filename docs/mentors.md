@@ -1,6 +1,6 @@
 ---
 title: Mentors
-description: Meet the mentors of Innovation Bootcamp Albania, from TU Eindhoven, UnternehmerTUM, the University of Tirana, Metropolitan Tirana University, Holberton and Qnomi.
+description: Meet the mentors of Innovation Bootcamp Albania, from TU Eindhoven, UnternehmerTUM, the University of Tirana, Metropolitan Tirana University, Holberton, Qnomi and Lufthansa Industry Solutions.
 hide:
   - navigation
   - toc
@@ -8,7 +8,7 @@ hide:
 
 <div class="ib-pagehead" markdown>
 
-Seven mentors, with the teams every day
+Eight mentors, with the teams every day
 {: .ib-pagehead__kicker }
 
 # The people ==in your corner==
@@ -207,9 +207,9 @@ PhD in Management on the entrepreneurial university model. Former Vice Dean of t
 
 <p class="ib-mentor__role">Academic Director, Holberton Albania, and Computer Science Lecturer, Metropolitan Tirana University</p>
 
-<ul class="ib-tags"><li>AI and machine learning</li><li>Product development</li><li>Robotics</li></ul>
+<ul class="ib-tags"><li>Leadership</li><li>Big-picture thinking</li><li>Tech and AI</li></ul>
 
-Helps teams turn ideas into working technology. MSc in AI and Robotics from the University of Freiburg and a PhD candidate in Artificial Intelligence.
+Helps teams step back, see the big picture and connect the pieces, then turn the idea into something that works. Leads academics at Holberton Albania and teaches at Metropolitan Tirana University.
 
 <details class="ib-bio"><summary>Read full bio</summary>
 <p>Evis works to make technology useful in practice, helping individuals and teams learn, develop ideas and build solutions with real impact. He is a Computer Science Lecturer at Metropolitan Tirana University, a PhD candidate in Artificial Intelligence, and Academic Director at Holberton Albania.</p>
@@ -218,19 +218,46 @@ Helps teams turn ideas into working technology. MSc in AI and Robotics from the 
 
 </div>
 
+<div class="ib-mentor" markdown>
+
+<div class="ib-mentor__photo" markdown>
+
+![Portrait of Kedi Kalaj](assets/mentors/kedi-kalaj.jpeg){ loading=lazy }
+
+<span class="ib-mentor__badge">Lufthansa Industry Solutions</span>
+
 </div>
 
-## Who to talk to when you are stuck
+### Kedi Kalaj
 
-Every mentor works with every team, but some questions have an obvious first stop.
+<p class="ib-mentor__role">Backend Software Engineer, Lufthansa Industry Solutions, and co-founder of Halosoft Labs</p>
+
+<ul class="ib-tags"><li>Product development</li><li>Cybersecurity</li><li>AI in real products</li></ul>
+
+Has taken several products from first idea to live business use with Halosoft Labs. Builds large-scale systems for the aviation industry and has competed in hackathons in Albania, Austria and Japan.
+
+<details class="ib-bio"><summary>Read full bio</summary>
+<p>Kedi is a software engineer and entrepreneur with four years of experience, working where product development, cloud technology and cybersecurity meet. He is a Backend Software Engineer at Lufthansa Industry Solutions, working on large-scale systems for the aviation industry, including tools that help airlines manage flight scheduling and recover from disruptions.</p>
+<p>He holds a Bachelor's degree in Software Engineering and an MSc in Computer Engineering and IT, specialising in Network and Cyber-Security, both from the Canadian Institute of Technology.</p>
+<p>He is also co-founder of Halosoft Labs, through which he has taken several products from initial idea to live business use, among them a gym management platform, a digital menu that uses AI for automatic translation and text recognition, and an online marketplace for electronic products. He has taken part in hackathons in Albania, Austria and Japan, as well as several entrepreneurship and innovation training programmes. His interests include product development, application security and the practical use of AI in real products.</p>
+</details>
+
+</div>
+
+</div>
+
+## Stuck? Here is where to start
+
+Every mentor works with every team. These are moments most teams go through, with a first step you can take on your own and the mentors who are a good first stop.
 {: .ib-lead }
 
-<div class="ib-help">
-  <div class="ib-help__row"><span class="ib-help__need">Is this problem real, and how do we check?</span><span class="ib-help__who"><a href="#gert-guri">Gert</a><a href="#kei-hysi">Kei</a><a href="#alba-skendaj">Alba</a></span></div>
-  <div class="ib-help__row"><span class="ib-help__need">Understanding users and testing ideas with them</span><span class="ib-help__who"><a href="#kei-hysi">Kei</a><a href="#gert-guri">Gert</a></span></div>
-  <div class="ib-help__row"><span class="ib-help__need">Business model, value proposition and impact</span><span class="ib-help__who"><a href="#alba-skendaj">Alba</a><a href="#brunilda-kosta">Brunilda</a></span></div>
-  <div class="ib-help__row"><span class="ib-help__need">Sustainability and circular ideas</span><span class="ib-help__who"><a href="#brunilda-kosta">Brunilda</a><a href="#alba-skendaj">Alba</a></span></div>
-  <div class="ib-help__row"><span class="ib-help__need">Roles, friction and decisions inside the team</span><span class="ib-help__who"><a href="#arvid-hendriks">Arvid</a><a href="#gert-guri">Gert</a></span></div>
-  <div class="ib-help__row"><span class="ib-help__need">Building the prototype, especially anything with data or AI</span><span class="ib-help__who"><a href="#evis-plaku">Evis</a></span></div>
-  <div class="ib-help__row"><span class="ib-help__need">Telling the story and presenting it</span><span class="ib-help__who"><a href="#bruna-papa">Bruna</a><a href="#arvid-hendriks">Arvid</a></span></div>
+<div class="ib-stuck">
+  <div class="ib-stuck__card"><strong>We are not sure the problem is real</strong><p>Go back to the Module 1 questions and talk to a few people who have the problem before you change direction.</p><div class="ib-stuck__who"><span>Talk to</span><a href="#gert-guri"><img src="../assets/mentors/gert-guri.jpeg" alt="">Gert</a><a href="#kei-hysi"><img src="../assets/mentors/kei-hysi.jpg" alt="">Kei</a><a href="#alba-skendaj"><img src="../assets/mentors/alba-skendaj.jpg" alt="">Alba</a></div></div>
+  <div class="ib-stuck__card"><strong>We do not really know our users</strong><p>Plan short conversations that do not lead people to an answer, then test one small idea with them.</p><div class="ib-stuck__who"><span>Talk to</span><a href="#kei-hysi"><img src="../assets/mentors/kei-hysi.jpg" alt="">Kei</a><a href="#gert-guri"><img src="../assets/mentors/gert-guri.jpeg" alt="">Gert</a></div></div>
+  <div class="ib-stuck__card"><strong>We have lots of ideas but no direction</strong><p>Step back, look at the whole picture and pick the idea that fits best with what you validated.</p><div class="ib-stuck__who"><span>Talk to</span><a href="#evis-plaku"><img src="../assets/mentors/evis-plaku.jpg" alt="">Evis</a><a href="#gert-guri"><img src="../assets/mentors/gert-guri.jpeg" alt="">Gert</a><a href="#arvid-hendriks"><img src="../assets/mentors/arvid-hendriks.jpeg" alt="">Arvid</a></div></div>
+  <div class="ib-stuck__card"><strong>We cannot explain why it matters</strong><p>Work through your value proposition and USP, and be clear on who benefits and who pays.</p><div class="ib-stuck__who"><span>Talk to</span><a href="#alba-skendaj"><img src="../assets/mentors/alba-skendaj.jpg" alt="">Alba</a><a href="#brunilda-kosta"><img src="../assets/mentors/brunilda-kosta.jpeg" alt="">Brunilda</a></div></div>
+  <div class="ib-stuck__card"><strong>Our idea could reach further</strong><p>Look at who else has the same need, and whether the solution can be more sustainable.</p><div class="ib-stuck__who"><span>Talk to</span><a href="#brunilda-kosta"><img src="../assets/mentors/brunilda-kosta.jpeg" alt="">Brunilda</a><a href="#alba-skendaj"><img src="../assets/mentors/alba-skendaj.jpg" alt="">Alba</a></div></div>
+  <div class="ib-stuck__card"><strong>The team is stuck or not getting along</strong><p>Say out loud what is happening, agree how you make decisions, and try the six thinking hats.</p><div class="ib-stuck__who"><span>Talk to</span><a href="#arvid-hendriks"><img src="../assets/mentors/arvid-hendriks.jpeg" alt="">Arvid</a><a href="#evis-plaku"><img src="../assets/mentors/evis-plaku.jpg" alt="">Evis</a><a href="#gert-guri"><img src="../assets/mentors/gert-guri.jpeg" alt="">Gert</a></div></div>
+  <div class="ib-stuck__card"><strong>We need to build something that works</strong><p>Decide the smallest prototype that shows your idea, connect it to the problem, and build only that.</p><div class="ib-stuck__who"><span>Talk to</span><a href="#evis-plaku"><img src="../assets/mentors/evis-plaku.jpg" alt="">Evis</a><a href="#kedi-kalaj"><img src="../assets/mentors/kedi-kalaj.jpg" alt="">Kedi</a></div></div>
+  <div class="ib-stuck__card"><strong>Our pitch does not land</strong><p>Cut it down to problem, solution, USP and impact, then rehearse it out loud with a mentor.</p><div class="ib-stuck__who"><span>Talk to</span><a href="#bruna-papa"><img src="../assets/mentors/bruna-papa.jpg" alt="">Bruna</a><a href="#arvid-hendriks"><img src="../assets/mentors/arvid-hendriks.jpeg" alt="">Arvid</a></div></div>
 </div>
