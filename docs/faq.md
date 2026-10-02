@@ -19,7 +19,6 @@ Everything we get asked about the bootcamp, from what to pack to how the jury de
 
 <nav class="ib-faq-nav" aria-label="FAQ topics">
   <a href="#about">About the bootcamp</a>
-  <a href="#taking-part">Taking part</a>
   <a href="#before">Before you arrive</a>
   <a href="#during">During the week</a>
   <a href="#demo-day">Demo day</a>
@@ -46,27 +45,6 @@ Everything we get asked about the bootcamp, from what to pack to how the jury de
 
     <span class="ib-tbc">To be confirmed</span> Sessions are expected to run in English, since several mentors come from abroad. Teams are free to work in whatever language suits them.
 
-## Taking part { #taking-part }
-
-??? question "Who can take part?"
-
-    <span class="ib-tbc">To be confirmed</span> Students from the partner universities and schools, including the University of Tirana, Metropolitan Tirana University, Tirana Business University and Holberton School. Details on study level and eligibility will be added here.
-
-??? question "How do I apply?"
-
-    <span class="ib-tbc">To be confirmed</span> The application link, deadline and selection process will be published here.
-
-??? question "Is there a fee?"
-
-    <span class="ib-tbc">To be confirmed</span>
-
-??? question "Do I need a team before I apply?"
-
-    No. Teams form on Monday afternoon, after the companies have presented their challenges and you have had time to talk with them. You join a team around the challenge that interests you most.
-
-??? question "Do I need a business or technical background?"
-
-    No. The strongest teams mix people who think differently: someone who can talk to users, someone who can build, someone who can tell the story. What matters most is curiosity and willingness to test your ideas with real people.
 
 ## Before you arrive { #before }
 
