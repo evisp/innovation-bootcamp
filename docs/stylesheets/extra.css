@@ -2998,3 +2998,10 @@ a.ib-btn.ib-btn--light:hover {
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+.md-typeset .ib-company__group {
+  margin: -0.15rem 0.35rem 0.4rem;
+  font-size: 0.64rem;
+  font-weight: 600;
+  color: var(--ib-violet-ink);
+}

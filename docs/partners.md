@@ -44,13 +44,13 @@ The bootcamp works because people from very different places agree to spend a we
 
 ## Challenge partners
 
-These companies each bring one real challenge to the bootcamp. They present it on Monday morning, meet the teams during speed-dating and see the final pitches on Friday.
+Four companies each bring one real challenge to the bootcamp. They present it on Monday morning, meet the teams during speed-dating and see the final pitches on Friday.
 {: .ib-lead }
 
 <div class="ib-companies">
   <div class="ib-company">
-    <div class="ib-company__logo"><img src="../assets/partners/raiffeisen-bank-albania.png" alt="Raiffeisen Bank Albania logo"></div>
-    <h3>Raiffeisen Bank Albania</h3>
+    <div class="ib-company__logo"><img src="../assets/partners/credins-bank.png" alt="Credins Bank logo"></div>
+    <h3>Credins Bank</h3>
     <p>Challenge presented on Monday 26 October.</p>
     <a class="ib-textlink" href="../challenges/">See the challenge</a>
   </div>
@@ -66,11 +66,12 @@ These companies each bring one real challenge to the bootcamp. They present it o
     <p>Challenge presented on Monday 26 October.</p>
     <a class="ib-textlink" href="../challenges/">See the challenge</a>
   </div>
-  <div class="ib-company ib-company--open">
-    <span class="ib-company__plus" aria-hidden="true">+</span>
-    <h3>Your company here</h3>
-    <p>There is room for a few more challenges this year. If your company has a problem worth five days of fresh thinking, get in touch.</p>
-    <a class="ib-textlink" href="#why-partner">Why take part</a>
+  <div class="ib-company">
+    <div class="ib-company__logo"><img src="../assets/partners/happy-balfin.png" alt="Happy logo"></div>
+    <h3>Happy</h3>
+    <span class="ib-company__group">Balfin Group</span>
+    <p>Challenge presented on Monday 26 October.</p>
+    <a class="ib-textlink" href="../challenges/">See the challenge</a>
   </div>
 </div>
 

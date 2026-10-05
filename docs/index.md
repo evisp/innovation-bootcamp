@@ -1,7 +1,7 @@
 ---
 template: home.html
 title: Home
-description: Five days where student teams work on real challenges from companies, coached by experienced mentors. 26 to 30 October 2026.
+description: Five days in Durrës where student teams work on real challenges from companies, coached by experienced mentors. 26 to 30 October 2026.
 hide:
   - navigation
   - toc
@@ -240,12 +240,12 @@ The organisations that make the week possible, from universities to companies an
 <div class="ib-logos">
   <figure class="ib-logo"><img src="assets/partners/match4research.png" alt=""><figcaption>Match4Research</figcaption></figure>
   <figure class="ib-logo"><img src="assets/partners/feut.png" alt=""><figcaption>Faculty of Economy, UT</figcaption></figure>
-  <figure class="ib-logo"><img src="assets/partners/raiffeisen-bank-albania.png" alt=""><figcaption>Raiffeisen Bank Albania</figcaption></figure>
+  <figure class="ib-logo"><img src="assets/partners/credins-bank.png" alt=""><figcaption>Credins Bank</figcaption></figure>
   <figure class="ib-logo"><img src="assets/partners/melia-durres.png" alt=""><figcaption>Melia Durrës</figcaption></figure>
   <figure class="ib-logo"><img src="assets/partners/gener-2.png" alt=""><figcaption>Gener 2</figcaption></figure>
+  <figure class="ib-logo"><img src="assets/partners/happy-balfin.png" alt=""><figcaption>Happy, Balfin Group</figcaption></figure>
   <figure class="ib-logo"><img src="assets/partners/umt.png" alt=""><figcaption>Metropolitan Tirana University</figcaption></figure>
   <figure class="ib-logo"><img src="assets/partners/holberton-school.png" alt=""><figcaption>Holberton School</figcaption></figure>
-  <figure class="ib-logo"><img src="assets/partners/tirana-business-university.png" alt=""><figcaption>Tirana Business University</figcaption></figure>
 </div>
 
 [All partners](partners.md){ .ib-textlink }
