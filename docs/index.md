@@ -1,7 +1,7 @@
 ---
 template: home.html
 title: Home
-description: Five days in Durrës where student teams work on real challenges from companies, coached by experienced mentors. 26 to 30 October 2026.
+description: Five days in Tirana and Durrës where student teams work on real challenges from companies, coached by experienced mentors. 26 to 30 October 2026.
 hide:
   - navigation
   - toc
@@ -107,7 +107,7 @@ Each partner company brings one problem it is dealing with right now. Everything
 
 ## From first idea to ==final pitch==
 
-Days run from 9:00 to 16:15, with coaching throughout. Evenings are for getting to know Durrës and each other.
+Monday and Friday take place in Tirana. From Tuesday to Thursday, days run from 9:00 to 16:15 with coaching throughout, and evenings are for getting to know Durrës and each other.
 {: .ib-lead }
 
 </div>
@@ -121,8 +121,7 @@ Days run from 9:00 to 16:15, with coaching throughout. Evenings are for getting 
   <li class="ib-day">
     <span class="ib-day__date">Monday 26 October</span>
     <h3>Challenges and teams</h3>
-    <p>Companies present their challenges and you meet them one to one. By the afternoon you have a team and a problem you want to take on.</p>
-    <span class="ib-day__evening">Albanian Taste and Entrepreneurship Evening</span>
+    <p>Companies present their challenges and you meet them in speed dating. In the afternoon, teams form through idea sharing and problem exploration.</p>
   </li>
   <li class="ib-day">
     <span class="ib-day__date">Tuesday 27 October</span>
@@ -145,8 +144,7 @@ Days run from 9:00 to 16:15, with coaching throughout. Evenings are for getting 
   <li class="ib-day ib-day--final">
     <span class="ib-day__date">Friday 30 October</span>
     <h3>Demo day</h3>
-    <p>Pitch clinics in the morning and final pitches after lunch. The jury decides, then we close with the awards.</p>
-    <span class="ib-day__evening">White Sensation Night, run by the students</span>
+    <p>Six teams pitch their final concepts in the afternoon. The jury scores, three winning teams are awarded, and partners give feedback in a co-creation session.</p>
   </li>
 </ol>
 

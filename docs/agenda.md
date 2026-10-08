@@ -8,12 +8,12 @@ hide:
 
 <div class="ib-pagehead" markdown>
 
-26 to 30 October 2026, Godina Liria and Durrës
+26 to 30 October 2026, Tirana and Durrës
 {: .ib-pagehead__kicker }
 
 # The week, ==hour by hour==
 
-Two days to understand the problem, one to shape a solution, two to prototype and pitch it. Every evening has something planned, so you get to know Durrës and the people around you.
+The week opens on Monday at Europe House in Tirana and closes on Friday at Godina Liria in Tirana. In between, teams explore the problem, shape a solution and prepare their pitch.
 {: .ib-lead }
 
 </div>
@@ -37,23 +37,23 @@ Two days to understand the problem, one to shape a solution, two to prototype an
     <div class="ib-cell ib-phase--explore">Team dynamics and problem validation</div>
     <div class="ib-cell ib-phase--build">Progress pitch and first solution ideas</div>
     <div class="ib-cell ib-phase--pitch">Progress pitch and pitching techniques</div>
-    <div class="ib-cell ib-phase--pitch">Pitch clinics with mentors</div>
+    <div></div>
     <div class="ib-glance__label">Afternoon</div>
-    <div class="ib-cell ib-phase--explore">Forming teams around the challenges</div>
+    <div class="ib-cell ib-phase--explore">Team formation and problem exploration</div>
     <div class="ib-cell ib-phase--explore">Testing the problem with real people</div>
     <div class="ib-cell ib-phase--build">Solution development and stakeholder map</div>
     <div class="ib-cell ib-phase--pitch">Pitch practice and prototyping</div>
-    <div class="ib-cell ib-cell--key">Final pitches, jury and awards</div>
+    <div class="ib-cell ib-cell--key">Pitches, jury scoring, awards and co-creation</div>
     <div class="ib-glance__label">Evening</div>
-    <div class="ib-cell ib-cell--evening">Albanian Taste and Entrepreneurship Evening</div>
+    <div></div>
     <div class="ib-cell ib-cell--evening">Innovation walk along the Adriatic</div>
     <div class="ib-cell ib-cell--evening">Bowling or beach volleyball</div>
     <div class="ib-cell ib-cell--evening">Music night with a pianist</div>
-    <div class="ib-cell ib-cell--evening">White Sensation Night</div>
+    <div></div>
   </div>
 </div>
 
-## Every day has the same rhythm
+## Tuesday to Thursday rhythm
 
 <div class="ib-rhythm-wrap">
   <div class="ib-rhythm" aria-label="Daily rhythm from 09:00 to the evening">
@@ -85,22 +85,20 @@ Two days to understand the problem, one to shape a solution, two to prototype an
       <div class="ib-dayhead__date"><strong>26</strong><span>Monday<br>October</span></div>
       <div class="ib-dayhead__text">
         <h3>Challenges and teams</h3>
-        <p>Meet the companies, hear their challenges and form a team around the one you want to take on.</p>
+        <p>Europe House, Tirana</p>
         <p class="ib-prep">Prepare with <a href="../training/01-problem-identification/">Module 1</a></p>
       </div>
     </div>
     <ol class="ib-agenda">
-      <li class="ib-slot ib-slot--session"><time>09:00</time><div><strong>Welcome and introduction</strong><span>How the week works, who is in the room and what you will leave with.</span></div></li>
-      <li class="ib-slot ib-slot--highlight"><time>10:00</time><div><strong>Challenge presentations</strong><span>Partner companies present the problems they want you to work on.</span></div></li>
-      <li class="ib-slot ib-slot--break"><time>10:30</time><div><strong>Break</strong><span>until 10:45</span></div></li>
-      <li class="ib-slot ib-slot--team"><time>10:45</time><div><strong>Speed-dating with the companies</strong><span>Short one-to-one rounds to dig into the details of each challenge.</span></div></li>
-      <li class="ib-slot ib-slot--break"><time>12:15</time><div><strong>Lunch</strong><span>until 13:15</span></div></li>
-      <li class="ib-slot ib-slot--team"><time>13:15</time><div><strong>Forming teams</strong><span>Share ideas, find people who care about the same challenge and group up.</span></div></li>
-      <li class="ib-slot ib-slot--break"><time>14:30</time><div><strong>Break</strong><span>until 14:45</span></div></li>
-      <li class="ib-slot ib-slot--team"><time>14:45</time><div><strong>First steps into the problem</strong><span>Teams settle in and map what they know and what they still need to find out.</span></div></li>
-      <li class="ib-slot ib-slot--session"><time>16:15</time><div><strong>Wrap-up</strong><span>A short round on how the day went.</span></div></li>
-      <li class="ib-slot ib-slot--break"><time>19:00</time><div><strong>Dinner</strong></div></li>
-      <li class="ib-slot ib-slot--evening"><time>20:00</time><div><strong>Albanian Taste and Entrepreneurship Evening</strong><span>Local food and an evening about building things in Albania.</span></div></li>
+      <li class="ib-slot ib-slot--break"><time>09:00</time><div><strong>Registration of participants</strong><span>until 09:30</span></div></li>
+      <li class="ib-slot ib-slot--session"><time>09:30</time><div><strong>Welcoming remarks</strong><span>Until 10:00.</span></div></li>
+      <li class="ib-slot ib-slot--highlight"><time>10:00</time><div><strong>Innovation challenges presentation</strong><span>Credins Bank, Gener 2, Resort Meliá Durrës and Happy (BALFIN Group) present the context of their challenges, the problem or need they aim to address, and what they expect from the solutions. Until 10:45.</span></div></li>
+      <li class="ib-slot ib-slot--break"><time>10:45</time><div><strong>Coffee break</strong><span>until 11:00</span></div></li>
+      <li class="ib-slot ib-slot--team"><time>11:00</time><div><strong>Speed dating with partners</strong><span>Short meetings with company representatives to gather more information about the challenges. Until 12:30.</span></div></li>
+      <li class="ib-slot ib-slot--break"><time>12:30</time><div><strong>Lunch break</strong><span>until 13:30</span></div></li>
+      <li class="ib-slot ib-slot--team"><time>13:30</time><div><strong>Team formation through idea sharing</strong><span>Participants get to know one another, share their interests, skills and ideas, and form multidisciplinary teams. Until 15:30.</span></div></li>
+      <li class="ib-slot ib-slot--team"><time>15:30</time><div><strong>Finalising teams through problem exploration</strong><span>Explore the challenge in greater depth, identify the key problems and needs, and define your focus area. Teams are finalised. Until 17:00.</span></div></li>
+      <li class="ib-slot ib-slot--session"><time>17:00</time><div><strong>Closing of Day I and key takeaways</strong><span>Until 17:30.</span></div></li>
     </ol>
 
 === "Tue 27"
@@ -181,22 +179,18 @@ Two days to understand the problem, one to shape a solution, two to prototype an
       <div class="ib-dayhead__date"><strong>30</strong><span>Friday<br>October</span></div>
       <div class="ib-dayhead__text">
         <h3>Demo day</h3>
-        <p>Polish the pitch in the morning, present it after lunch and celebrate in the evening.</p>
-        <p class="ib-prep">Bring your slides, your prototype and your whole team.</p>
+        <p>Godina Liria (Aula Magna conference room), Tirana</p>
       </div>
     </div>
     <ol class="ib-agenda">
-      <li class="ib-slot ib-slot--pitch"><time>09:00</time><div><strong>Pitch clinics</strong><span>Run your pitch with mentors and fix what does not land yet.</span></div></li>
-      <li class="ib-slot ib-slot--break"><time>10:30</time><div><strong>Break</strong><span>until 10:45</span></div></li>
-      <li class="ib-slot ib-slot--pitch"><time>10:45</time><div><strong>Pitch clinics continue</strong><span>Final runs until lunch.</span></div></li>
-      <li class="ib-slot ib-slot--break"><time>12:15</time><div><strong>Lunch</strong><span>until 13:15</span></div></li>
-      <li class="ib-slot ib-slot--highlight"><time>13:15</time><div><strong>Final pitch presentations</strong><span>Each team presents to the jury and the partner companies, in a 3+3 format.</span></div></li>
-      <li class="ib-slot ib-slot--break"><time>14:30</time><div><strong>Break</strong><span>until 14:45</span></div></li>
-      <li class="ib-slot ib-slot--session"><time>14:45</time><div><strong>The jury decides</strong><span>Meanwhile, teams give each other feedback and build on each other's ideas.</span></div></li>
-      <li class="ib-slot ib-slot--highlight"><time>16:15</time><div><strong>Awards ceremony and closing</strong><span>Winners announced, thanks said, photos taken.</span></div></li>
-      <li class="ib-slot ib-slot--break"><time>19:00</time><div><strong>Dinner</strong></div></li>
-      <li class="ib-slot ib-slot--evening"><time>20:00</time><div><strong>White Sensation Night</strong><span>A dance music evening organised by the students.</span></div></li>
+      <li class="ib-slot ib-slot--break"><time>13:30</time><div><strong>Registration of participants</strong><span>until 14:00</span></div></li>
+      <li class="ib-slot ib-slot--session"><time>14:00</time><div><strong>Opening remarks</strong><span>Until 14:30.</span></div></li>
+      <li class="ib-slot ib-slot--highlight"><time>14:30</time><div><strong>Pitching session from 6 teams</strong><span>Each team presents its final concept: the problem addressed, the solution, the innovation behind it, and its value and impact for the partner company and its stakeholders. Until 15:30.</span></div></li>
+      <li class="ib-slot ib-slot--break"><time>15:30</time><div><strong>Coffee break</strong><span>until 15:45</span></div></li>
+      <li class="ib-slot ib-slot--session"><time>15:45</time><div><strong>Jury scoring</strong><span>The jury evaluates the presentations on innovation, relevance, feasibility, scalability and potential impact. Until 16:00.</span></div></li>
+      <li class="ib-slot ib-slot--highlight"><time>16:00</time><div><strong>Award ceremony and closing remarks</strong><span>The three winning teams are announced and awarded. Until 16:30.</span></div></li>
+      <li class="ib-slot ib-slot--team"><time>16:30</time><div><strong>Co-creation</strong><span>Students, mentors and business partners reflect on the proposed solutions, and partners give direct feedback on their relevance, feasibility and potential for real-world application. Until 17:00.</span></div></li>
     </ol>
 
 !!! info "Good to know"
-    Times may shift a little on the day. Venue details for each day, and the dress code for White Sensation Night, will be added to the [FAQ](faq.md).
+    Times may shift a little on the day. Monday takes place at Europe House and Friday at Godina Liria (Aula Magna conference room), both in Tirana.
