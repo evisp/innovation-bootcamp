@@ -196,7 +196,7 @@ Helps teams step back, see the big picture and connect the pieces, then turn the
 
 <div class="ib-mentor__photo" markdown>
 
-![Portrait of Ditjona Kule](assets/mentors/ditjona-kule.jpg){ loading=lazy }
+![Portrait of Ditjona Kule](assets/mentors/ditjona-kule.jpeg){ loading=lazy }
 
 <span class="ib-mentor__badge">Faculty of Economy, UT</span>
 
@@ -283,6 +283,6 @@ Every mentor works with every team. These are moments most teams go through, wit
   <div class="ib-stuck__card"><strong>We cannot explain why it matters</strong><p>Work through your value proposition and USP, and be clear on who benefits and who pays.</p><div class="ib-stuck__who"><span>Talk to</span><a href="#alba-skendaj"><img src="../assets/mentors/alba-skendaj.jpg" alt="">Alba</a><a href="#brunilda-kosta"><img src="../assets/mentors/brunilda-kosta.jpeg" alt="">Brunilda</a></div></div>
   <div class="ib-stuck__card"><strong>Our idea could reach further</strong><p>Look at who else has the same need, and whether the solution can be more sustainable.</p><div class="ib-stuck__who"><span>Talk to</span><a href="#brunilda-kosta"><img src="../assets/mentors/brunilda-kosta.jpeg" alt="">Brunilda</a><a href="#ditjona-kule"><img src="../assets/mentors/ditjona-kule.jpeg" alt="">Ditjona</a><a href="#alba-skendaj"><img src="../assets/mentors/alba-skendaj.jpg" alt="">Alba</a></div></div>
   <div class="ib-stuck__card"><strong>The team is stuck or not getting along</strong><p>Say out loud what is happening, agree how you make decisions, and try the six thinking hats.</p><div class="ib-stuck__who"><span>Talk to</span><a href="#arvid-hendriks"><img src="../assets/mentors/arvid-hendriks.jpeg" alt="">Arvid</a><a href="#evis-plaku"><img src="../assets/mentors/evis-plaku.jpg" alt="">Evis</a><a href="#gert-guri"><img src="../assets/mentors/gert-guri.jpeg" alt="">Gert</a></div></div>
-  <div class="ib-stuck__card"><strong>We need to build something that works</strong><p>Decide the smallest prototype that shows your idea, connect it to the problem, and build only that.</p><div class="ib-stuck__who"><span>Talk to</span><a href="#evis-plaku"><img src="../assets/mentors/evis-plaku.jpg" alt="">Evis</a><a href="#kedi-kalaj"><img src="../assets/mentors/kedi-kalaj.jpg" alt="">Kedi</a></div></div>
+  <div class="ib-stuck__card"><strong>We need to build something that works</strong><p>Decide the smallest prototype that shows your idea, connect it to the problem, and build only that.</p><div class="ib-stuck__who"><span>Talk to</span><a href="#evis-plaku"><img src="../assets/mentors/evis-plaku.jpg" alt="">Evis</a><a href="#kedi-kalaj"><img src="../assets/mentors/kedi-kalaj.jpeg" alt="">Kedi</a></div></div>
   <div class="ib-stuck__card"><strong>Our pitch does not land</strong><p>Cut it down to problem, solution, USP and impact, then rehearse it out loud with a mentor.</p><div class="ib-stuck__who"><span>Talk to</span><a href="#bruna-papa"><img src="../assets/mentors/bruna-papa.jpg" alt="">Bruna</a><a href="#arvid-hendriks"><img src="../assets/mentors/arvid-hendriks.jpeg" alt="">Arvid</a></div></div>
 </div>
