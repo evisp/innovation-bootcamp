@@ -8,7 +8,7 @@ hide:
 
 <div class="ib-pagehead" markdown>
 
-Eight mentors, with the teams every day
+Nine mentors, with the teams every day
 {: .ib-pagehead__kicker }
 
 # The people ==in your corner==
@@ -30,9 +30,9 @@ They come from universities, innovation hubs and companies across Europe and Alb
     <span>A short update from each team, with direct feedback from the mentors.</span>
   </div>
   <div class="ib-moment">
-    <span class="ib-moment__when">Friday morning</span>
-    <strong>Pitch clinics</strong>
-    <span>Run your final pitch with a mentor and fix what does not land yet.</span>
+    <span class="ib-moment__when">Thursday afternoon</span>
+    <strong>Pitch practice</strong>
+    <span>Rehearse your pitch and get feedback from the mentors before demo day.</span>
   </div>
 </div>
 
@@ -171,32 +171,6 @@ Over 13 years in innovation, circular economy and entrepreneurship, on projects 
 
 <div class="ib-mentor__photo" markdown>
 
-![Portrait of Bruna Papa](assets/mentors/bruna-papa.jpg){ loading=lazy }
-
-<span class="ib-mentor__badge">Faculty of Economy, UT</span>
-
-</div>
-
-### Bruna Papa
-
-<p class="ib-mentor__role">Lecturer, Department of Management, Faculty of Economy, University of Tirana</p>
-
-<ul class="ib-tags"><li>Entrepreneurial education</li><li>Business communication</li><li>Ecosystems</li></ul>
-
-PhD in Management on the entrepreneurial university model. Former Vice Dean of the Faculty of Economy, and from 2022 to 2025 an Employment Coordinator in Kelowna, Canada.
-
-<details class="ib-bio"><summary>Read full bio</summary>
-<p>Dr. Bruna Papa is a management expert and university lecturer with more than a decade of experience in higher education, public engagement and employment programme coordination in Albania and Canada. She holds a PhD in Management from the University of Tirana, with research on the entrepreneurial university model in public higher education.</p>
-<p>From 2022 to 2025 she was Employment Coordinator at Kelowna Community Resources Society in Canada, where she led federal and provincial employment programmes, developed training curricula and built partnerships with local businesses, academic institutions and government agencies. Before that she held several senior roles at the University of Tirana, including Director of External Relations and Projects, Vice Dean of the Faculty of Economy, and project coordinator for EU and donor-funded initiatives such as PACINNO, Interface and Erasmus+ mobility programmes.</p>
-<p>She has completed training programmes in Canada, the USA and Europe, with certifications from the University of British Columbia, the University of Alberta and Okanagan College. She teaches Business Communication and Entrepreneurship and Small Business Management.</p>
-</details>
-
-</div>
-
-<div class="ib-mentor" markdown>
-
-<div class="ib-mentor__photo" markdown>
-
 ![Portrait of Evis Plaku](assets/mentors/evis-plaku.jpg){ loading=lazy }
 
 <span class="ib-mentor__badge">Holberton and UMT</span>
@@ -214,6 +188,31 @@ Helps teams step back, see the big picture and connect the pieces, then turn the
 <details class="ib-bio"><summary>Read full bio</summary>
 <p>Evis works to make technology useful in practice, helping individuals and teams learn, develop ideas and build solutions with real impact. He is a Computer Science Lecturer at Metropolitan Tirana University, a PhD candidate in Artificial Intelligence, and Academic Director at Holberton Albania.</p>
 <p>He holds a Master's degree in Artificial Intelligence and Robotics from the University of Freiburg (Germany), has done research at The Catholic University of America in Washington, D.C., and holds a degree in Computer Science from the University of Tirana. His areas of expertise include artificial intelligence, machine learning, robotics and technology product development, as well as mentoring individuals and multidisciplinary teams.</p>
+</details>
+
+</div>
+
+<div class="ib-mentor" markdown>
+
+<div class="ib-mentor__photo" markdown>
+
+![Portrait of Ditjona Kule](assets/mentors/ditjona-kule.jpg){ loading=lazy }
+
+<span class="ib-mentor__badge">Faculty of Economy, UT</span>
+
+</div>
+
+### Ditjona Kule
+
+<p class="ib-mentor__role">Associate Professor, Faculty of Economy, University of Tirana</p>
+
+<ul class="ib-tags"><li>Economics of innovation</li><li>Green growth</li><li>Digital transformation</li></ul>
+
+Over 15 years of teaching and research on innovation, green growth and the circular economy. Works on Horizon WIDERA, Erasmus+ and Jean Monnet projects, and coordinates the EFEMA project on EU integration.
+
+<details class="ib-bio"><summary>Read full bio</summary>
+<p>Ditjona Kule is an Associate Professor at the Faculty of Economy, University of Tirana, with over 15 years of experience in teaching and research. Her expertise covers the economics of innovation, green growth, the circular economy, and the digital transformation of businesses and education.</p>
+<p>She takes part in European projects under Horizon WIDERA, Erasmus+ and Jean Monnet, and coordinates the EFEMA project on EU integration. Throughout her work she connects academic research, technology and public policy.</p>
 </details>
 
 </div>
@@ -244,6 +243,32 @@ Has taken several products from first idea to live business use with Halosoft La
 
 </div>
 
+<div class="ib-mentor" markdown>
+
+<div class="ib-mentor__photo" markdown>
+
+![Portrait of Bruna Papa](assets/mentors/bruna-papa.jpg){ loading=lazy }
+
+<span class="ib-mentor__badge">Faculty of Economy, UT</span>
+
+</div>
+
+### Bruna Papa
+
+<p class="ib-mentor__role">Lecturer, Department of Management, Faculty of Economy, University of Tirana</p>
+
+<ul class="ib-tags"><li>Entrepreneurial education</li><li>Business communication</li><li>Ecosystems</li></ul>
+
+PhD in Management on the entrepreneurial university model. Former Vice Dean of the Faculty of Economy, and from 2022 to 2025 an Employment Coordinator in Kelowna, Canada.
+
+<details class="ib-bio"><summary>Read full bio</summary>
+<p>Dr. Bruna Papa is a management expert and university lecturer with more than a decade of experience in higher education, public engagement and employment programme coordination in Albania and Canada. She holds a PhD in Management from the University of Tirana, with research on the entrepreneurial university model in public higher education.</p>
+<p>From 2022 to 2025 she was Employment Coordinator at Kelowna Community Resources Society in Canada, where she led federal and provincial employment programmes, developed training curricula and built partnerships with local businesses, academic institutions and government agencies. Before that she held several senior roles at the University of Tirana, including Director of External Relations and Projects, Vice Dean of the Faculty of Economy, and project coordinator for EU and donor-funded initiatives such as PACINNO, Interface and Erasmus+ mobility programmes.</p>
+<p>She has completed training programmes in Canada, the USA and Europe, with certifications from the University of British Columbia, the University of Alberta and Okanagan College. She teaches Business Communication and Entrepreneurship and Small Business Management.</p>
+</details>
+
+</div>
+
 </div>
 
 ## Stuck? Here is where to start
@@ -256,7 +281,7 @@ Every mentor works with every team. These are moments most teams go through, wit
   <div class="ib-stuck__card"><strong>We do not really know our users</strong><p>Plan short conversations that do not lead people to an answer, then test one small idea with them.</p><div class="ib-stuck__who"><span>Talk to</span><a href="#kei-hysi"><img src="../assets/mentors/kei-hysi.jpg" alt="">Kei</a><a href="#gert-guri"><img src="../assets/mentors/gert-guri.jpeg" alt="">Gert</a></div></div>
   <div class="ib-stuck__card"><strong>We have lots of ideas but no direction</strong><p>Step back, look at the whole picture and pick the idea that fits best with what you validated.</p><div class="ib-stuck__who"><span>Talk to</span><a href="#evis-plaku"><img src="../assets/mentors/evis-plaku.jpg" alt="">Evis</a><a href="#gert-guri"><img src="../assets/mentors/gert-guri.jpeg" alt="">Gert</a><a href="#arvid-hendriks"><img src="../assets/mentors/arvid-hendriks.jpeg" alt="">Arvid</a></div></div>
   <div class="ib-stuck__card"><strong>We cannot explain why it matters</strong><p>Work through your value proposition and USP, and be clear on who benefits and who pays.</p><div class="ib-stuck__who"><span>Talk to</span><a href="#alba-skendaj"><img src="../assets/mentors/alba-skendaj.jpg" alt="">Alba</a><a href="#brunilda-kosta"><img src="../assets/mentors/brunilda-kosta.jpeg" alt="">Brunilda</a></div></div>
-  <div class="ib-stuck__card"><strong>Our idea could reach further</strong><p>Look at who else has the same need, and whether the solution can be more sustainable.</p><div class="ib-stuck__who"><span>Talk to</span><a href="#brunilda-kosta"><img src="../assets/mentors/brunilda-kosta.jpeg" alt="">Brunilda</a><a href="#alba-skendaj"><img src="../assets/mentors/alba-skendaj.jpg" alt="">Alba</a></div></div>
+  <div class="ib-stuck__card"><strong>Our idea could reach further</strong><p>Look at who else has the same need, and whether the solution can be more sustainable.</p><div class="ib-stuck__who"><span>Talk to</span><a href="#brunilda-kosta"><img src="../assets/mentors/brunilda-kosta.jpeg" alt="">Brunilda</a><a href="#ditjona-kule"><img src="../assets/mentors/ditjona-kule.jpeg" alt="">Ditjona</a><a href="#alba-skendaj"><img src="../assets/mentors/alba-skendaj.jpg" alt="">Alba</a></div></div>
   <div class="ib-stuck__card"><strong>The team is stuck or not getting along</strong><p>Say out loud what is happening, agree how you make decisions, and try the six thinking hats.</p><div class="ib-stuck__who"><span>Talk to</span><a href="#arvid-hendriks"><img src="../assets/mentors/arvid-hendriks.jpeg" alt="">Arvid</a><a href="#evis-plaku"><img src="../assets/mentors/evis-plaku.jpg" alt="">Evis</a><a href="#gert-guri"><img src="../assets/mentors/gert-guri.jpeg" alt="">Gert</a></div></div>
   <div class="ib-stuck__card"><strong>We need to build something that works</strong><p>Decide the smallest prototype that shows your idea, connect it to the problem, and build only that.</p><div class="ib-stuck__who"><span>Talk to</span><a href="#evis-plaku"><img src="../assets/mentors/evis-plaku.jpg" alt="">Evis</a><a href="#kedi-kalaj"><img src="../assets/mentors/kedi-kalaj.jpg" alt="">Kedi</a></div></div>
   <div class="ib-stuck__card"><strong>Our pitch does not land</strong><p>Cut it down to problem, solution, USP and impact, then rehearse it out loud with a mentor.</p><div class="ib-stuck__who"><span>Talk to</span><a href="#bruna-papa"><img src="../assets/mentors/bruna-papa.jpg" alt="">Bruna</a><a href="#arvid-hendriks"><img src="../assets/mentors/arvid-hendriks.jpeg" alt="">Arvid</a></div></div>

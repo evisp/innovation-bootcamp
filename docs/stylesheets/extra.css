@@ -3005,3 +3005,39 @@ a.ib-btn.ib-btn--light:hover {
   font-weight: 600;
   color: var(--ib-violet-ink);
 }
+
+/* Mentors: four in the first row, five in the second */
+.md-typeset .ib-mentors {
+  grid-template-columns: repeat(20, minmax(0, 1fr));
+}
+
+.md-typeset .ib-mentors > .ib-mentor {
+  grid-column: span 5;
+}
+
+.md-typeset .ib-mentors > .ib-mentor:nth-child(n + 5) {
+  grid-column: span 4;
+}
+
+@media screen and (max-width: 76.1875em) {
+  .md-typeset .ib-mentors {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md-typeset .ib-mentors > .ib-mentor,
+  .md-typeset .ib-mentors > .ib-mentor:nth-child(n + 5) {
+    grid-column: auto;
+  }
+}
+
+@media screen and (max-width: 60em) {
+  .md-typeset .ib-mentors {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 34em) {
+  .md-typeset .ib-mentors {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
