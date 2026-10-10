@@ -4,7 +4,7 @@ site_url: https://evisp.github.io/innovation-bootcamp/
 repo_url: https://github.com/evisp/innovation-bootcamp
 repo_name: evisp/innovation-bootcamp
 edit_uri: edit/main/docs/
-copyright: © 2026 Match4Research & FEUT
+copyright: '© 2026 Match4Research and FEUT<br><span class="ib-slogan">Real problems. Fresh minds. Ideas that matter.</span>'
 
 theme:
   name: material
@@ -76,3 +76,7 @@ extra_css:
 
 extra_javascript:
   - javascripts/agenda.js
+
+
+extra:
+  generator: false

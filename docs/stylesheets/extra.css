@@ -3304,3 +3304,10 @@ a.ib-btn.ib-btn--light:hover {
     font-size: 1rem;
   }
 }
+
+/* Footer slogan */
+.md-copyright .ib-slogan {
+  font-family: var(--ib-display);
+  font-weight: 600;
+  color: var(--ib-mint);
+}
