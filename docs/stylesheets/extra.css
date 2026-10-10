@@ -3041,3 +3041,266 @@ a.ib-btn.ib-btn--light:hover {
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+/* 19. Challenges page ----------------------------------------------------- */
+
+.md-typeset .ib-chjump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 2.4rem 0 1.6rem;
+}
+
+.md-typeset .ib-chjump a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.3rem 0.9rem 0.3rem 0.35rem;
+  border: 1px solid var(--ib-line);
+  border-radius: 999px;
+  background-color: var(--ib-white);
+  font-family: var(--ib-display);
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--ib-ink);
+  text-decoration: none;
+}
+
+.md-typeset .ib-chjump a:hover {
+  border-color: var(--ib-violet);
+  color: var(--ib-violet-ink);
+}
+
+.md-typeset .ib-chjump img {
+  width: 2.6rem;
+  height: 1.5rem;
+  padding: 0.15rem 0.3rem;
+  border-radius: 999px;
+  background-color: var(--ib-canvas);
+  object-fit: contain;
+}
+
+.md-typeset .ib-challenges {
+  display: grid;
+  gap: 1.2rem;
+  counter-reset: ch;
+}
+
+.md-typeset .ib-challenge {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 2rem;
+  padding: 1.6rem;
+  border: 1px solid var(--ib-line);
+  border-radius: 22px;
+  background-color: var(--ib-white);
+  scroll-margin-top: 7rem;
+}
+
+.md-typeset .ib-challenge:nth-child(even) .ib-challenge__body {
+  order: 2;
+}
+
+.md-typeset .ib-challenge__company {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 1.1rem;
+}
+
+.md-typeset .ib-challenge__logo {
+  flex: none;
+  width: 5.4rem;
+  height: 3.2rem;
+  padding: 0.45rem 0.6rem;
+  border-radius: 12px;
+  background-color: var(--ib-canvas);
+}
+
+.md-typeset .ib-challenge__logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.md-typeset .ib-challenge__company strong {
+  display: block;
+  font-family: var(--ib-display);
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--ib-ink);
+}
+
+.md-typeset .ib-challenge__company small {
+  display: block;
+  font-size: 0.64rem;
+  font-weight: 600;
+  color: var(--ib-teal-ink);
+}
+
+.md-typeset p.ib-challenge__q {
+  position: relative;
+  margin: 0 0 1.1rem;
+  padding-left: 1.1rem;
+  border-left: 3px solid var(--ib-violet);
+  font-family: var(--ib-display);
+  font-size: 1.12rem;
+  font-weight: 600;
+  line-height: 1.45;
+  color: var(--ib-ink);
+}
+
+.md-typeset .ib-challenge .ib-tags {
+  margin: 0;
+}
+
+/* Video thumbnail, 16:9 */
+.md-typeset a.ib-video {
+  position: relative;
+  display: block;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 16px;
+  background:
+    radial-gradient(18rem 10rem at 100% 0%, rgba(108, 92, 231, 0.55), transparent 70%),
+    radial-gradient(16rem 10rem at 0% 100%, rgba(20, 196, 176, 0.35), transparent 70%),
+    var(--ib-ink);
+  text-decoration: none;
+}
+
+.md-typeset a.ib-video img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.md-typeset a.ib-video::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 8px 24px rgba(15, 27, 61, 0.35);
+  transform: translate(-50%, -50%);
+  transition: transform 0.15s ease;
+}
+
+.md-typeset a.ib-video::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  width: 0;
+  height: 0;
+  margin-left: 0.15rem;
+  border-top: 0.6rem solid transparent;
+  border-bottom: 0.6rem solid transparent;
+  border-left: 1rem solid var(--ib-ink);
+  transform: translate(-50%, -50%);
+}
+
+.md-typeset a.ib-video:hover::before {
+  transform: translate(-50%, -50%) scale(1.08);
+}
+
+.md-typeset a.ib-video:focus-visible {
+  outline: 2px solid var(--ib-violet);
+  outline-offset: 3px;
+}
+
+.md-typeset .ib-video__soon {
+  position: absolute;
+  left: 50%;
+  bottom: 1rem;
+  padding: 0.2rem 0.7rem;
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.12);
+  font-size: 0.64rem;
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--ib-mint);
+  transform: translateX(-50%);
+}
+
+/* What the jury looks for */
+.md-typeset ol.ib-criteria {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.7rem;
+  margin: 1.3rem 0 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: cr;
+}
+
+.md-typeset ol.ib-criteria li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin: 0;
+  padding: 1rem 1rem 1.1rem;
+  border: 1px solid var(--ib-line);
+  border-radius: 14px;
+  background-color: var(--ib-white);
+  counter-increment: cr;
+}
+
+.md-typeset ol.ib-criteria li::before {
+  content: counter(cr);
+  margin-bottom: 0.3rem;
+  font-family: var(--ib-display);
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1;
+  color: transparent;
+  -webkit-text-stroke: 1.5px var(--ib-violet);
+}
+
+.md-typeset ol.ib-criteria strong {
+  font-family: var(--ib-display);
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--ib-ink);
+}
+
+.md-typeset ol.ib-criteria span {
+  font-size: 0.7rem;
+  line-height: 1.5;
+  color: var(--ib-muted);
+}
+
+@media screen and (max-width: 60em) {
+  .md-typeset .ib-challenge {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.3rem;
+    padding: 1.2rem;
+  }
+
+  .md-typeset .ib-challenge:nth-child(even) .ib-challenge__body {
+    order: 0;
+  }
+
+  .md-typeset ol.ib-criteria {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 34em) {
+  .md-typeset ol.ib-criteria {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .md-typeset p.ib-challenge__q {
+    font-size: 1rem;
+  }
+}
