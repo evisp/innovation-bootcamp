@@ -44,10 +44,9 @@ Each partner company brings a question it is working on right now. Watch the vid
 </nav>
 
 <!--
-  Adding a video: replace href="https://www.youtube.com" with the video link,
-  and replace the <span class="ib-video__soon">...</span> line with:
-  <img src="https://img.youtube.com/vi/VIDEO_ID/hqdefault.jpg" alt="">
-  VIDEO_ID is the part after "v=" (or after "youtu.be/") in the link.
+  Videos: each link uses the YouTube video ID (the code after "v=").
+  The thumbnail comes from https://img.youtube.com/vi/VIDEO_ID/hqdefault.jpg
+  To change a video, replace the ID in both the link and the image.
 -->
 
 <div class="ib-challenges">
@@ -61,8 +60,8 @@ Each partner company brings a question it is working on right now. Watch the vid
       <p class="ib-challenge__q">How can Credins Bank evolve from a financial intermediary into a <mark>trusted partner for young people</mark>, helping them discover their potential, develop it, and connect it to real-life opportunities?</p>
       <ul class="ib-tags"><li>Young people</li><li>Talent development</li><li>Real-life opportunities</li></ul>
     </div>
-    <a class="ib-video" href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="Watch the Credins Bank challenge video">
-      <span class="ib-video__soon">Video coming soon</span>
+    <a class="ib-video" href="https://www.youtube.com/watch?v=xXnhg3qL_9o" target="_blank" rel="noopener" aria-label="Watch the Credins Bank challenge video on YouTube">
+      <img src="https://img.youtube.com/vi/xXnhg3qL_9o/hqdefault.jpg" alt="" loading="lazy">
     </a>
   </article>
 
@@ -75,8 +74,8 @@ Each partner company brings a question it is working on right now. Watch the vid
       <p class="ib-challenge__q">How can Meliá Durrës become the <mark>employer of choice</mark> for Albania's next generation by innovating the employee experience to attract, onboard, engage, and retain top talent in an increasingly competitive hospitality industry?</p>
       <ul class="ib-tags"><li>Employee experience</li><li>Talent retention</li><li>Hospitality</li></ul>
     </div>
-    <a class="ib-video" href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="Watch the Resort Meliá Durrës challenge video">
-      <span class="ib-video__soon">Video coming soon</span>
+    <a class="ib-video" href="https://www.youtube.com/watch?v=UJFdgK8VE5g" target="_blank" rel="noopener" aria-label="Watch the Resort Meliá Durrës challenge video on YouTube">
+      <img src="https://img.youtube.com/vi/UJFdgK8VE5g/hqdefault.jpg" alt="" loading="lazy">
     </a>
   </article>
 
@@ -89,8 +88,8 @@ Each partner company brings a question it is working on right now. Watch the vid
       <p class="ib-challenge__q">How can Gener 2 leverage <mark>technology and AI</mark> in its new projects to develop and manage innovative systems while delivering a better customer experience?</p>
       <ul class="ib-tags"><li>Technology and AI</li><li>Smart systems</li><li>Customer experience</li></ul>
     </div>
-    <a class="ib-video" href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="Watch the Gener 2 challenge video">
-      <span class="ib-video__soon">Video coming soon</span>
+    <a class="ib-video" href="https://www.youtube.com/watch?v=4m5mA-8OYcs" target="_blank" rel="noopener" aria-label="Watch the Gener 2 challenge video on YouTube">
+      <img src="https://img.youtube.com/vi/4m5mA-8OYcs/hqdefault.jpg" alt="" loading="lazy">
     </a>
   </article>
 
@@ -103,8 +102,8 @@ Each partner company brings a question it is working on right now. Watch the vid
       <p class="ib-challenge__q">Design a <mark>gamification feature</mark> for Happy, and show how AI can make it more personal, more engaging and more useful.</p>
       <ul class="ib-tags"><li>Gamification</li><li>Personalisation with AI</li><li>Engagement</li></ul>
     </div>
-    <a class="ib-video" href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="Watch the Happy challenge video">
-      <span class="ib-video__soon">Video coming soon</span>
+    <a class="ib-video" href="https://www.youtube.com/watch?v=NBGOvURb8kQ" target="_blank" rel="noopener" aria-label="Watch the Happy challenge video on YouTube">
+      <img src="https://img.youtube.com/vi/NBGOvURb8kQ/hqdefault.jpg" alt="" loading="lazy">
     </a>
   </article>
 
